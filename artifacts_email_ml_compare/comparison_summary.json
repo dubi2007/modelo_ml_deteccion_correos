@@ -1,0 +1,47 @@
+{
+  "csv_file": "C:\\Users\\jinga\\OneDrive\\Escritorio\\generador_emails\\modelos_ml\\synthetic_emails_unificados.csv",
+  "created_at": "2026-04-11T17:36:30.990768+00:00",
+  "targets": {
+    "tipo_base": {
+      "target": "tipo_base",
+      "best_experiment": "subject_body",
+      "artifact_path": "C:\\Users\\jinga\\OneDrive\\Escritorio\\generador_emails\\modelos_ml\\artifacts_email_ml_compare\\tipo_base_best_model.joblib",
+      "test_metrics": {
+        "accuracy": 0.9916405433646813,
+        "f1_macro": 0.9915783030854209,
+        "f1_weighted": 0.9916315945330204
+      }
+    },
+    "prioridad_label": {
+      "target": "prioridad_label",
+      "best_experiment": "subject_body_sender_strong",
+      "artifact_path": "C:\\Users\\jinga\\OneDrive\\Escritorio\\generador_emails\\modelos_ml\\artifacts_email_ml_compare\\prioridad_label_best_model.joblib",
+      "test_metrics": {
+        "accuracy": 0.5600835945663531,
+        "f1_macro": 0.5642177955133348,
+        "f1_weighted": 0.5208174261161621
+      }
+    },
+    "riesgo_label": {
+      "target": "riesgo_label",
+      "best_experiment": "subject_body_sender",
+      "artifact_path": "C:\\Users\\jinga\\OneDrive\\Escritorio\\generador_emails\\modelos_ml\\artifacts_email_ml_compare\\riesgo_label_best_model.joblib",
+      "test_metrics": {
+        "accuracy": 0.6938349007314525,
+        "f1_macro": 0.6954241535789345,
+        "f1_weighted": 0.6923731097823896
+      }
+    },
+    "tono_label": {
+      "target": "tono_label",
+      "best_experiment": "subject_body_sender",
+      "artifact_path": "C:\\Users\\jinga\\OneDrive\\Escritorio\\generador_emails\\modelos_ml\\artifacts_email_ml_compare\\tono_label_best_model.joblib",
+      "test_metrics": {
+        "accuracy": 0.5214211076280042,
+        "f1_macro": 0.5279950190455198,
+        "f1_weighted": 0.5131942846945684
+      }
+    }
+  },
+  "updated_at": "2026-04-11T18:28:25.821105+00:00"
+}
